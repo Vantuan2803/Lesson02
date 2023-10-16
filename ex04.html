@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        
+    }
+    .text {
+        float: right;
+    }
+</style>
+<body>
+    <form action="">
+        <table width="500px">
+            <h1>Thông tin đăng ký</h1>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="fullNmae" id="fullName"></td>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="userName" id="userNmae"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>Gioi tính</td>
+                <td>
+                    <input type="radio" name="sex" id="sex" checked>
+                    <label for="sex">Nam</label>
+                    <input type="radio" name="sex" id="sex">
+                    <label for="sex">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">Ngôn ngữ lập trình</td>
+                <td>
+                    <input type="checkbox" name="languageDev" id="languageDev">
+                    <label for="languageDev">Ngôn ngữ C#</label>
+                
+                </td>    
+                
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="languageDev" id="languageDev">
+                <label for="languageDev">Ngôn ngữ Java</label>
+                </td> 
+           </tr>
+           <tr>
+                <td><input type="checkbox" name="languageDev" id="languageDev">
+                    <label for="languageDev">Ngôn ngữ PHP</label>
+                </td>
+           </tr>
+           <tr>
+                <td> 
+                    <input type="checkbox" name="languageDev" id="languageDev">
+                    <label for="languageDev">Ngôn ngữ khác</label>
+                </td>
+           </tr>
+            <tr>
+                <td>Tỉnh thành</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Hà Nội</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Reset">
+                </td>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
